@@ -1,0 +1,12 @@
+services:
+  control-server:
+    build: .
+    ports:
+      - "5256:5256"
+    environment:
+      PORT: 5256
+      STORAGE_DIR: /data
+      TASK_TIMEOUT_MS: 600000
+    volumes:
+      - ./storage:/data
+    restart: unless-stopped
