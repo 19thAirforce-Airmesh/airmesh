@@ -1,0 +1,9 @@
+[submodule "airmesh-client"]
+	path = airmesh-client
+	url = git@github.com:19thAirforce-Airmesh/airmesh-client.git
+[submodule "airmesh-control-server"]
+	path = airmesh-control-server
+	url = git@github.com:19thAirforce-Airmesh/airmesh-control-server.git
+[submodule "airmesh-worker"]
+	path = airmesh-worker
+	url = git@github.com:19thAirforce-Airmesh/airmesh-worker.git
